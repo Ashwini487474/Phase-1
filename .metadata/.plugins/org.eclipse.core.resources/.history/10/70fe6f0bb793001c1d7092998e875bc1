@@ -1,0 +1,27 @@
+package accessmodifier;
+
+public class testM {
+
+	private int y = 20;
+	long z = 2345;
+	public void methodpublic()
+	{
+		methodPrivate();
+	}
+	protected void methodProtected()
+	{
+		methodPrivate();
+	}
+	void methodDefault()
+	{
+		methodprivate();
+	}
+	private void methodprivate()
+	{
+		System.out.println("class typeM:methodprivate");
+		System.out.println("value of private valye y"+ y);
+		System.out.println("value of long"+ k);
+
+	}
+
+}

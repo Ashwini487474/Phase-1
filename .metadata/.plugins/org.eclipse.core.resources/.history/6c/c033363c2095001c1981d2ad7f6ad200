@@ -1,0 +1,25 @@
+package accessmodifier;
+
+public class testA 
+{
+	private int Y=10;
+	long k = 1000;
+	public void methodPublic()
+	{
+		methodprivate();
+	}
+	protected void methodprotected()
+	{
+		methodprivate();
+	}
+	void methodDefault() {
+		methodprivate();
+	}
+	
+		
+
+
+
+	}
+
+}

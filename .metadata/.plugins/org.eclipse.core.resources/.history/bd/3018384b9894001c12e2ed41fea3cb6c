@@ -1,0 +1,78 @@
+package pgm.inheritance;
+
+public class product 
+{
+	int id = 78;
+	String name = "Amul";
+	public static void display()
+	{
+		System.out.println("this is display of product class");
+	}
+	
+	
+class A extends product
+{
+	int count = 50;
+	String category = "butter";
+	public void view()
+	{
+		System.out.println("this is view of A class");
+	}
+		
+}
+class B extends product
+{
+	int count = 90;
+	String category = "Milk";
+	public void Show()
+	{
+		System.out.println("this is Show of B class" )
+	}
+		
+}
+class C extends product
+{
+	int count = 56;
+	 String category = "choco";
+	 void display() {
+		 System.out.println(id+""+name+"+""+count+""+category);
+	 }
+	
+	
+}
+class sub A extends A
+{
+	int price=30;
+	void total price
+	 int tp;
+    tp=count*price;
+    
+    System.out.println(id+" "+name+" "+ catagory+"total price"+tp);
+	{
+		
+	}
+}
+class sub B extends B
+{
+	int price = 10;
+	void total price()
+	{
+		int tp;
+		tp=count*price;
+		System.out.println(id+""+name+"+""+count+""+category+"total price"+tp);
+	}
+}
+
+
+	
+
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+
+}
